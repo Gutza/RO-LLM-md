@@ -2,8 +2,11 @@ Analysis and Recommendations for Fine-Tuning a Cost-Effective LLM for Romanian M
 ==================================================================================================
 
 > **Purpose**: preliminary concept proofing
+>
 > **Date**: 2025-07-19
+>
 > **Model**: Google Gemini 2.5 Pro (Deep Research)
+>
 > **Prompt**: I want to train (fine-tune) an LLM to fix LLM-generated markdown in Romanian. All LLMs I used generate markdown which has at least two problems:
 > 1. the markdown itself is wasteful (e.g. it uses both `#` and `**` to highlight titles)
 > 2. even when generating Romanian text, the LLM uses English title capitalization, which is obnoxiously annoying.
