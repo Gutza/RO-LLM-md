@@ -5,11 +5,26 @@ This project fine-tunes a small OpenAI model to fix Romanian markdown. After res
 
 ## Requirements
 * **Python 3.10+**
-* **openai** Python package and CLI
 
-Install dependencies with:
+## Generate a virtual environment:
 ```bash
-pip install openai
+python -m venv venv
+```
+
+Activate the virtual environment:
+[Linux/MacOS]
+```bash
+source venv/bin/activate
+```
+
+[Windows]
+```ps1
+.\venv\Scripts\activate.ps1
+```
+
+Install dependencies:
+```bash
+pip install -r requirements.txt
 ```
 
 Export your API key so both the library and CLI can authenticate:
